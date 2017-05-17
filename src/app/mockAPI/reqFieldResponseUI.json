@@ -1,0 +1,263 @@
+{
+  "ConsolidatedFields": [],
+  "Errors": [],
+  "Products": [
+    {
+      "ClientProductId": 1234455,
+      "Errors": [],
+      "Fields": [
+        {
+          "Caption": "This is the first question",
+          "Category": "Financing",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "FieldValues": [
+            {
+              "Code": "Finance",
+              "Desc": "Finance"
+            },
+            {
+              "Code": "Lease",
+              "Desc": "Lease"
+            },
+            {
+              "Code": "Balloon",
+              "Desc": "Balloon"
+            },
+            {
+              "Code": "Cash",
+              "Desc": "Cash"
+            },
+            {
+              "Code": "Cashlo",
+              "Desc": "Cashlo"
+            }
+          ],
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "deal_type",
+          "Required": "Y",
+          "Value": "",
+          "displayUI":true
+        },
+        {
+          "Caption": "Amount Financed",
+          "Category": "Financing",
+          "Comment": "",
+          "ControlType": "Textbox",
+          "DataType": "Numeric",
+          "FieldValues": [],
+          "MaxLength": "11",
+          "MaxValue": "99999999.99",
+          "MinValue": "0",
+          "Name": "amount_financed",
+          "Required": "Y",
+          "Value": "",
+          "displayUI":true
+        },
+
+        {
+          "Caption": "Amount Financed Calender",
+          "Category": "Financing",
+          "Comment": "",
+          "ControlType": "Calender",
+          "DataType": "Numeric",
+          "FieldValues": [],
+          "MaxLength": "11",
+          "MaxValue": "99999999.99",
+          "MinValue": "0",
+          "Name": "amount_financed",
+          "Required": "Y",
+          "Value": "",
+          "displayUI":true
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "FieldValues": [],
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "vin",
+          "Required": "N",
+          "Value": null,
+          "displayUI":true
+
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Numeric",
+          "FieldValues": [],
+          "MaxLength": "11",
+          "MaxValue": "99999999.99",
+          "MinValue": "",
+          "Name": "odometer",
+          "Required": "Y",
+          "Value": null,
+          "displayUI":true
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "FieldValues": [],
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "year",
+          "Required": "Y",
+          "Value": null,
+          "displayUI":true
+
+        },
+        {
+          "Caption": "Usage",
+          "Category": "Financing",
+          "Comment": "",
+          "ControlType": "Dropdown",
+          "DataType": "Alphanumeric",
+          "FieldValues": [
+            {
+              "Code": "Personal",
+              "Desc": "Personal"
+            },
+            {
+              "Code": "Commercial",
+              "Desc": "Commercial"
+            },
+            {
+              "Code": "SnowPlow",
+              "Desc": "SnowPlow"
+            }
+          ],
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "usage",
+          "Required": "Y",
+          "Value": null,
+          "displayUI":true
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "FieldValues": [],
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "model",
+          "Required": "Y",
+          "Value": null,
+          "displayUI":true
+        },
+        {
+          "Caption": "",
+          "Category": "Product",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "FieldValues": [],
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "provider_dealer_id",
+          "Required": "Y",
+          "Value": null,
+          "displayUI":true
+        },
+        {
+          "Caption": "",
+          "Category": "Vehicle",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "FieldValues": [
+            {
+              "Code": "N",
+              "Desc": "New"
+            },
+            {
+              "Code": "U",
+              "Desc": "Used"
+            }
+          ],
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "type",
+          "Required": "Y",
+          "Value": null,
+          "displayUI":true
+        },
+        {
+          "Caption": "Book Type",
+          "Category": "finance",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "FieldValues": [
+            {
+              "Code": "NADA",
+              "Desc": "NADA"
+            },
+            {
+              "Code": "CHROME",
+              "Desc": "CHROME"
+            },
+            {
+              "Code": "POLK",
+              "Desc": "POLK"
+            }
+          ],
+          "MaxLength": "",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "book_type",
+          "Required": "Y",
+          "Value": 30,
+          "displayUI":true
+        },
+        {
+          "Caption": "",
+          "Category": "finance",
+          "Comment": "",
+          "ControlType": "NA",
+          "DataType": "Alphanumeric",
+          "FieldValues": [],
+          "MaxLength": "30",
+          "MaxValue": "",
+          "MinValue": "",
+          "Name": "make",
+          "Required": "Y",
+          "Value":30,
+          "displayUI":true
+        }
+      ],
+      "ProductTypeCode": "AP",
+      "ProviderId": "APC",
+      "ProviderProductId": null
+    }
+  ],
+  "keydata": {
+    "ClientDealerId": "116627",
+    "ClientId": "DEM",
+    "ContractDate": "/Date(-62135578800000-0500)/",
+    "Credentials": null,
+    "DTDealerId": "116627",
+    "EchoData": null,
+    "RequestDate": "/Date(1492796848234-0400)/"
+  }
+}
